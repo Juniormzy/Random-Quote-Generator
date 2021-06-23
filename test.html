@@ -1,0 +1,48 @@
+<html>
+<head>
+	<title>Random Quiz Generator</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="index.js"></script>
+</head>
+<style>
+  .row{
+  position: absolute;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+  background-color: green;
+  width: 800px;
+  height: 200px;
+  border-radius: 10px;
+}
+ button {
+color: blue;
+text-align: center;
+position: relative;
+ position: absolute;
+top: 50%;
+left:50%;
+transform: translate(-50%,-30%);
+background-color: pink;
+border: none;
+width: 100px;
+height: 40px;
+border-radius: 10px;
+cursor: pointer;
+}
+p {
+	font-size: 20px;
+	color: white;
+}
+
+</style>
+<body>
+<div class="container">
+	<div class="row">
+		<center><p id="demo">Click the button to generate Quotes</p></center>
+		<button onclick="buttonclick()"  class="btn">Click me</button>
+	</div>
+	
+</div>
+</body>
+</html>
